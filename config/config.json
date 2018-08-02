@@ -5,7 +5,9 @@
     "database": "sequelize",
     "host": "127.0.0.1",
     "port": "13306",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "seederStorage": "json",
+    "seederStoragePath": "sequelizeData.json"
   },
   "test": {
     "username": "dev",
